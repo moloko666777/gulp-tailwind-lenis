@@ -1,7 +1,7 @@
 node_modules
 dist
 build
-.ide
+.idea
 src/css/*.css
 *.lock
 *.DS_Store
