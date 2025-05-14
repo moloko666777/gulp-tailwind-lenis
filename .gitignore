@@ -1,0 +1,7 @@
+node_modules
+dist
+build
+.ide
+src/css/*.css
+*.lock
+*.DS_Store
