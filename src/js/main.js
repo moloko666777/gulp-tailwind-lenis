@@ -1,4 +1,5 @@
 import Lenis from 'lenis';
+import { initAnimations } from './animations';
 
 window.addEventListener("DOMContentLoaded", () => {
     const lenis = new Lenis({
@@ -20,5 +21,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     requestAnimationFrame(raf);
 
-    console.log("Lenis initialized");
+    initAnimations();
+
+    console.log("Lenis and GSAP animations initialized");
 });
