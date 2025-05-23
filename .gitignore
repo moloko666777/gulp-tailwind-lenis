@@ -1,0 +1,7 @@
+node_modules
+dist
+build
+.idea
+src/css/*.css
+*.lock
+*.DS_Store
